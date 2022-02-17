@@ -1,0 +1,7 @@
+n1=(int(input('Enter a numeric value ')))
+db=(n1*2)
+tp=(n1*3)
+rq=(n1**2)
+print('Twice the chosen value is {}'.format(db))
+print('Triple the chosen value is {}'.format(tp))
+print('The square root of the chosen value is {}'.format(rq))

@@ -1,0 +1,5 @@
+n1=int(input('What is the height of the wall in meters? '))
+n2=int(input('How wide is the wall in meters? '))
+a=(n1*n2)
+t=(a/2)
+print(f'The value in square meters of this wall is {a}, you will need to use {t} liters of paint to paint the entire wall')

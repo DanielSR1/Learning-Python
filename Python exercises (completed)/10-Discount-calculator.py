@@ -1,0 +1,5 @@
+n1=(int(input("What is the product's value? ")))
+n2=(int(input('Enter the discount amount: ')))
+vd=(n1*n2/100)
+vr=(n1-vd)
+print(f'The value of the product with {n2}% discount is ${vr}.')

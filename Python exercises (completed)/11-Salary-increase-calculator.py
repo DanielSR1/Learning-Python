@@ -1,0 +1,5 @@
+n1=(int(float(input('What is the current salary? '))))
+n2=(int(float(input('Enter the percentage of salary increase '))))
+s=(n1*n2/100)
+sa=(n1+s)
+print(f'The salary value with the increase of {n2}% is {sa}.')

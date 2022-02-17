@@ -1,0 +1,5 @@
+n1=(int(input('first numeric value ')))
+n2=(int(input('Second numeric value ')))
+s=(n1+n2)
+d=(s/2)
+print('The average of the values ​​is {}'.format(d))
